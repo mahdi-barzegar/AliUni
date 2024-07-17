@@ -14,7 +14,7 @@ namespace AliUni.Data.Entities.Users.Connections
         public int RPCId { get; set; }
 
         public int RoleId { get; set; }
-
+        //test coment
         public int PermisionId { get; set; }
 
         [ForeignKey("RoleId")]
